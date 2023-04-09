@@ -120,7 +120,7 @@ When the user input a deadline command, it will be parsed into Parser to determi
 Then, the deadline command will be executed, and the respective method in the DeadlineManager class will be called, which are:
 (XYZ stands for the respective command name.)
 
-#### Add deadline to deadline list (method: `addDeadline`)
+#### Add deadline to deadline list
 
    Adds the `Deadline` object to the ArrayList `deadlinelist`.
 
@@ -131,7 +131,7 @@ Then, the deadline command will be executed, and the respective method in the De
    If the addition was a success, a message will be printed through `TextUi` class to notify the reader that the `Deadline` object has been added.
 
 
-#### Delete a deadline from the deadline list (method: `deleteDeadline`
+#### Delete a deadline from the deadline list
 
    Removes a `Deadline` object from the ArrayList `deadlinelist` using the index given.
 
@@ -141,7 +141,7 @@ Then, the deadline command will be executed, and the respective method in the De
 
    If the deletion was a success, a message will be printed through `TextUi` class to notify the reader that the `Deadline` object has been deleted.
 
-#### Printing the deadline list (method: `viewDeadlines`, `findDeadlines`)
+#### Printing the deadline list
    
     
 Prints an ArrayList through `TextUi` class.
